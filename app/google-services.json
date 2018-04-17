@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "712035786127",
+    "firebase_url": "https://sagip-280d9.firebaseio.com",
+    "project_id": "sagip-280d9",
+    "storage_bucket": "sagip-280d9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:712035786127:android:b173a888169230d1",
+        "android_client_info": {
+          "package_name": "com.example.leebet_pc.saggip"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "712035786127-cbhetm8v0u3n93ncgr331m39hgo3d7ss.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.leebet_pc.saggip",
+            "certificate_hash": "51e21c998e150bce00c5b0698b18c342af47d810"
+          }
+        },
+        {
+          "client_id": "712035786127-fceuvsj0spierf0pin3d94h8hh248suc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAaaifS1kS7HrfvQU1Ccv8W4FBlERCN94U"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "712035786127-fceuvsj0spierf0pin3d94h8hh248suc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

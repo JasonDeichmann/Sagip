@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:id="@+id/navigation_past_crime_reports"
+        android:icon="@drawable/ic_report_24dp"
+        android:title="Past Reports" />
+
+    <item
+        android:id="@+id/navigation_emergency_message"
+        android:icon="@drawable/ic_distress_24dp"
+        android:title="Distress SMS" />
+
+    <item
+        android:id="@+id/navigation_contacts"
+        android:icon="@drawable/ic_contacts_24dp"
+        android:title="Contacts" />
+
+
+</menu>

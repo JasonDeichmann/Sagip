@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#757575"
+    android:orientation="vertical"
+
+    tools:context="com.example.leebet_pc.saggip.EmergencyMessageActivity">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@drawable/ab_gradient"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+    </android.support.design.widget.AppBarLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="48dp"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:background="@android:drawable/dialog_holo_light_frame">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingTop="40dp"
+            android:background="#263238"
+            android:gravity="center">
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/message_shape"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="S.O.S Message Blast when distress triggered"
+                android:textSize="11sp"
+                android:shadowColor="#000000"
+                android:shadowRadius="4.0"
+                android:layout_marginTop="24dp"
+                android:gravity="center"
+                android:textColor="#455A64"/>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColorHint="@color/white"
+                app:counterEnabled="true"
+                app:counterMaxLength="50"
+                app:counterTextAppearance="@style/TextAppearance.AppCompat.Button">
+
+                <EditText
+                    android:id="@+id/emergency_messsage_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:layout_marginLeft="0.5dp"
+                    android:layout_marginRight="0.5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/et_shape"
+                    android:drawableEnd="@drawable/ic_sgp"
+                    android:enabled="false"
+                    android:inputType="textMultiLine"
+                    android:maxLength="50"
+                    android:paddingLeft="40dp"
+                    android:paddingRight="40dp"
+                    android:text="Emergency Message"
+                    android:textColor="@color/black" />
+
+            </android.support.design.widget.TextInputLayout>
+
+            <Button
+                android:id="@+id/emergency_message_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:layout_marginTop="24dp"
+                android:background="@drawable/btn_shape"
+                android:bottomLeftRadius="10dp"
+                android:bottomRightRadius="10dp"
+                android:drawableRight="@drawable/ic_edit_24dp"
+                android:drawableTint="#e95c30"
+                android:paddingLeft="25dp"
+                android:paddingRight="9dp"
+                android:text="Edit"
+                android:textColor="#e95c30"
+                android:textStyle="normal"
+                android:topLeftRadius="10dp"
+                android:topRightRadius="10dp" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
